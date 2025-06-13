@@ -36,7 +36,7 @@ function losujZwierze(): Zwierze | 'LIS' | 'WILK' {
 }
 
 const startFarma = (): Record<Zwierze, number> => ({
-  KROLIK: 10, OWCA: 0, SWINIA: 1, KROWA: 1, KON: 1, MALY_PIES: 1, DUZY_PIES: 1,
+  KROLIK: 1, OWCA: 0, SWINIA: 0, KROWA: 0, KON: 0, MALY_PIES: 0, DUZY_PIES: 0,
 });
 
 const sumaWszystkichZwierzat = (gracze: Record<Zwierze, number>[], typ: Zwierze): number => {
