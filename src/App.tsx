@@ -287,7 +287,7 @@ const rzutKoscmi = () => {
             {konfetti}
             </>
           </div>
-          < button className="main-button" onClick={restartGry}>Zagraj ponownie 🔁</button>
+          < button className="main-button" onClick={restartGry}>Zagraj ponownie! 🔁</button>
             </>
           )}
       </div>
