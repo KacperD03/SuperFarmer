@@ -63,6 +63,8 @@ Aby wygrać grę **SuperFarmer**, gracz musi zebrać następujące zwierzęta:
 - 🐄 1 Krowa
 - 🐎 1 Koń
 
+Grę zaczyna się od 1 Królika.
+
 Po spełnieniu tych warunków:
 
 - Na ekranie pojawia się **komunikat o zwycięstwie**, np. `🏆 Gracz 3 wygrał grę!`
