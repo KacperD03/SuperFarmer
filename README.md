@@ -1,74 +1,73 @@
-# 🐮 SuperFarmer – gra przeglądarkowa
+# 🐮 SuperFarmer – Browser Game
 
-SuperFarmer to przeglądarkowa wersja kultowej gry planszowej, w której zarządzasz własnym gospodarstwem. Hoduj zwierzęta, wymieniaj je i chroń przed lisami i wilkami. Graj sam lub z przyjaciółmi w trybie lokalnym!
+SuperFarmer is a browser version of the classic board game where you manage your own farm. Breed animals, trade them, and protect them from foxes and wolves. Play alone or with friends in local multiplayer mode!
 
-## 🎮 Funkcje
+## 🎮 Features
 
-- 🔄 Tury dla 2–4 graczy
-- 🐰 System losowania zwierząt z ryzykiem ataku lisa lub wilka
-- ♻️ Inteligentny system wymiany zwierząt
-- 🏆 Warunki zwycięstwa z efektem konfetti
-- 📜 Log zdarzeń z ostatnich ruchów
+- 🔄 Turns for 2–4 players
+- 🐰 Animal drawing system with a risk of a fox or wolf attack
+- ♻️ Intelligent animal trade system
+- 🏆 Victory conditions with a confetti effect
+- 📜 Event log of the last moves
 
-## 🧱 Technologie
+## 🧱 Technologies
 
-- ⚡ [Vite](https://vitejs.dev/) – super szybki bundler
-- ⚛️ React + TypeScript – interfejs użytkownika i logika gry
-- 🎨 CSS – stylizacja elementów i animacje
+- ⚡ [Vite](https://vitejs.dev/) – super fast bundler
+- ⚛️ React + TypeScript – user interface and game logic
+- 🎨 CSS – styling elements and animations
 
-## 🚀 Jak odpalić projekt
+## 🚀 How to run the project
 
 ```bash
-  cd superfarmer
   npm install
   npm run dev
 ```
-Wejdź w przeglądarce na adres:
+Visit the following address in your browser:
 
 http://localhost:5173
 
-## 🐮 Ekran startowy gry SuperFarmer
+## 🐮 SuperFarmer Game Start Screen
 
-Po uruchomieniu aplikacji użytkownik trafia na klimatyczny ekran główny oraz tytuł **SuperFarmer**.
+After launching the application, the user is greeted with an atmospheric main screen and the title **SuperFarmer**.
 
-Poniżej znajduje się panel wyboru liczby graczy — do wyboru są opcje:
+Below is the player selection panel — the following options are available:
 
 - `2 graczy`
 - `3 graczy`
 - `4 graczy`
 
-Kliknięcie jednej z nich rozpoczyna rozgrywkę. 
+Clicking on one of them starts the game.
 
 ![alt text](image.png)
 
-## 🎯 Ekran rozgrywki – tura gracza
+## 🎯 Gameplay Screen – Player's Turn
 
-Po wyborze liczby graczy rozpoczyna się właściwa rozgrywka. Interfejs tury zawiera:
+After selecting the number of players, the actual game begins. The turn interface includes:
 
-- **Nagłówek** z aktualnym numerem gracza.
-- **Panel możliwych wymian** po lewej stronie – gracz może zamieniać zwierzęta według ustalonych reguł, klikając przycisk `Wybierz`.
-- **Stan gospodarstwa** na środku – pokazuje aktualną liczbę posiadanych zwierząt.
-- **Przycisk `Rzuć kośćmi 🎲`**, który aktywuje losowanie dwóch zwierząt i ewentualne zdarzenia specjalne (np. atak wilka lub lisa).
-- **Dziennik gry** po prawej – rejestruje każdy ruch, rzuty kośćmi, rozmnożenia, wymiany oraz inne ważne zdarzenia w grze.
+- **Header** with the current player number.
+- **Possible trades panel** on the left – the player can trade animals according to the established rules by clicking the `Wybierz` button.
+- **Farm status** in the center – shows the current number of owned animals.
+- **`Rzuć kośćmi 🎲` button**, which activates the drawing of two animals and any special events (e.g., wolf or fox attack).
+- **Game log** on the right – records every move, dice rolls, breeding, trades, and other important events in the game.
 
 ![alt text](image-1.png)
 
-## 🏆 Zwycięstwo
+## 🏆 Victory
 
-Aby wygrać grę **SuperFarmer**, gracz musi zebrać następujące zwierzęta:
+To win the game **SuperFarmer**, the player must collect the following animals:
 
-- 🐇 1 Królik
-- 🐑 1 Owca
-- 🐖 1 Świnia
-- 🐄 1 Krowa
-- 🐎 1 Koń
+- 🐇 1 Rabbit
+- 🐑 1 Sheep
+- 🐖 1 Pig
+- 🐄 1 Cow
+- 🐎 1 Horse
 
-Grę zaczyna się od 1 Królika.
+The game starts with 1 Rabbit.
 
-Po spełnieniu tych warunków:
+Once these conditions are met:
 
-- Na ekranie pojawia się **komunikat o zwycięstwie**, np. `🏆 Gracz 3 wygrał grę!`
-- Z nieba zaczyna **spadać konfetti** w losowych kolorach i animacjach
-- Pojawia się przycisk **„Zagraj ponownie 🔁”**, który po kliknięciu **przenosi gracza z powrotem na ekran startowy**, gdzie można wybrać nową liczbę graczy i rozpocząć kolejną rozgrywkę.
+- A **victory message** appears on the screen, e.g., `🏆 Gracz 3 wygrał grę!`
+- **Confetti starts falling** from the sky in random colors and animations.
+- A **"Play Again 🔁"** button appears, which when clicked **takes the player back to the start screen**, where a new number of players can be selected, and a new game can begin.
 
 ![alt text](image-2.png)
